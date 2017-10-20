@@ -10,7 +10,7 @@ public class SequentialSearch {
 		int ar[] = {23, 47, 19, 63, 57, 26, 75, 73, 82, 89, 47, 11};
 		int i, num;
 		int key = 0, index = 0;
-		num = ar.length;
+		num = ar.length; // 배열 ar의 길이를 num에 저장한다
 		
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("찾고자 하는 숫자를 2자리로 입력하세요 :");
